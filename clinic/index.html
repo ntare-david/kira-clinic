@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIRA Clinic - Healthcare Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <meta name="description" content="KIRA Clinic provides high-quality healthcare services in Nyagatare District including medical consultations, laboratory testing, and vaccination services.">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <svg class="heart-loader" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" version="1.1">
+                <g class="heart-loader__group">
+                    <path class="heart-loader__square" stroke-width="1" fill="none" d="M0,30 0,90 60,90 60,30z"/>
+                    <path class="heart-loader__circle m--left" stroke-width="1" fill="none" d="M60,30 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
+                    <path class="heart-loader__circle m--right" stroke-width="1" fill="none" d="M60,30 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0"/>
+                    <path class="heart-loader__heartPath" stroke-width="2" d="M60,30 a30,30 0 0,1 -60,0 a30,30 0 0,1 60,0 v30 h-60 v-30 a30,30 0 0,1 60,0 z" />
+                </g>
+            </svg>
+            <p>KIRA Clinic</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.PNG" width="65" length="65" alt="logo.png">
+                <h1>KIRA Clinic</h1>
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="mobile-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url('images/Hospital1.PNG')">
+                    <div class="hero-content">
+                        <h1>Your Health Is Our Priority</h1>
+                        <p>KIRA Clinic provides high-quality healthcare services in Nyagatare District</p>
+                        <div class="hero-buttons">
+                            <a href="services.html" class="btn btn-primary">Our Services</a>
+                            <a href="#" class="btn btn-secondary btn-appointment">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('images/Hospital3.PNG')">
+                    <div class="hero-content">
+                        <h1>Advanced Medical Care</h1>
+                        <p>State-of-the-art facilities and experienced healthcare professionals</p>
+                        <div class="hero-buttons">
+                            <a href="services.html" class="btn btn-primary">Our Services</a>
+                            <a href="#" class="btn btn-secondary btn-appointment">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('images/Hospital2.PNG')">
+                    <div class="hero-content">
+                        <h1>Comprehensive Healthcare</h1>
+                        <p>From routine check-ups to specialized treatments, we've got you covered</p>
+                        <div class="hero-buttons">
+                            <a href="services.html" class="btn btn-primary">Our Services</a>
+                            <a href="#" class="btn btn-secondary btn-appointment">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="stat-number" data-count="15">0</div>
+                    <div class="stat-text">Expert Doctors</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number" data-count="5000">0</div>
+                    <div class="stat-text">Happy Patients</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="stat-number" data-count="10000">0</div>
+                    <div class="stat-text">Consultations</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="stat-number" data-count="8">0</div>
+                    <div class="stat-text">Years of Service</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-preview" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About KIRA Clinic</h2>
+                <div class="section-divider">
+                    <span></span>
+                    <i class="fas fa-heartbeat"></i>
+                    <span></span>
+                </div>
+                <p>Providing quality healthcare services to our community</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="images/Hospital1.PNG" alt="KIRA Clinic Building">
+                        <div class="experience-badge">
+                            <span>8</span>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3>Welcome to KIRA Clinic</h3>
+                    <p>KIRA Clinic is a private health center located at Nyagatare District. We offer different healthy services such as: treatment for illness, Laboratory testing and vaccination.</p>
+                    <p>Our team of experienced healthcare professionals is committed to providing high-quality care using advanced medical knowledge and technology.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Qualified Doctors</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Modern Equipment</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Emergency Services</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>24/7 Support</span>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-preview" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <div class="section-divider">
+                    <span></span>
+                    <i class="fas fa-stethoscope"></i>
+                    <span></span>
+                </div>
+                <p>Comprehensive healthcare services for all your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Medical Consultations</h3>
+                    <p>Our experienced doctors provide comprehensive medical consultations for patients of all ages.</p>
+                    <a href="services.html#consultations" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Laboratory Testing</h3>
+                    <p>Our state-of-the-art laboratory offers a wide range of diagnostic tests with accurate results.</p>
+                    <a href="services.html#laboratory" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-syringe"></i>
+                    </div>
+                    <h3>Vaccination Services</h3>
+                    <p>We offer comprehensive vaccination services for children, adults, and travelers.</p>
+                    <a href="services.html#vaccination" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Specialized Care</h3>
+                    <p>We offer specialized care in several areas to address specific health needs of our patients.</p>
+                    <a href="services.html#specialized" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Patient Testimonials</h2>
+                <div class="section-divider">
+                    <span></span>
+                    <i class="fas fa-quote-right"></i>
+                    <span></span>
+                </div>
+                <p>What our patients say about us</p>
+            </div>
+            <div class="swiper testimonial-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <i class="fas fa-quote-left"></i>
+                                <p>The doctors and staff at KIRA Clinic are exceptional. They provided me with excellent care and were very attentive to my needs. I highly recommend their services.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="/placeholder.svg?height=100&width=100" alt="Patient">
+                                <div class="author-info">
+                                    <h4>John Doe</h4>
+                                    <p>Patient</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <i class="fas fa-quote-left"></i>
+                                <p>I've been going to KIRA Clinic for years and have always received top-notch care. The staff is friendly, and the doctors are knowledgeable and caring.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="/placeholder.svg?height=100&width=100" alt="Patient">
+                                <div class="author-info">
+                                    <h4>Jane Smith</h4>
+                                    <p>Patient</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <i class="fas fa-quote-left"></i>
+                                <p>The laboratory services at KIRA Clinic are excellent. I received my test results quickly, and the staff explained everything clearly. Very professional service!</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="/placeholder.svg?height=100&width=100" alt="Patient">
+                                <div class="author-info">
+                                    <h4>Robert Johnson</h4>
+                                    <p>Patient</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section class="appointment">
+        <div class="container">
+            <div class="appointment-grid">
+                <div class="appointment-content">
+                    <h2>Book an Appointment</h2>
+                    <p>Schedule a consultation with one of our experienced doctors. We're here to help you with any health concerns.</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+250 7XX XXX XXX</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>info@kiraclinic.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Working Hours</h4>
+                                <p>Mon-Fri: 8:00 AM - 6:00 PM</p>
+                                <p>Sat: 9:00 AM - 1:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="appointment-form">
+                    <form id="appointmentForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Preferred Date</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="time">Preferred Time</label>
+                                <select id="time" name="time" required>
+                                    <option value="">Select Time</option>
+                                    <option value="9:00 AM">9:00 AM</option>
+                                    <option value="10:00 AM">10:00 AM</option>
+                                    <option value="11:00 AM">11:00 AM</option>
+                                    <option value="12:00 PM">12:00 PM</option>
+                                    <option value="2:00 PM">2:00 PM</option>
+                                    <option value="3:00 PM">3:00 PM</option>
+                                    <option value="4:00 PM">4:00 PM</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select Service</option>
+                                    <option value="General Consultation">General Consultation</option>
+                                    <option value="Laboratory Testing">Laboratory Testing</option>
+                                    <option value="Vaccination">Vaccination</option>
+                                    <option value="Specialized Care">Specialized Care</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Information</label>
+                            <textarea id="message" name="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Book Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Partners</h2>
+                <div class="section-divider">
+                    <span></span>
+                    <i class="fas fa-handshake"></i>
+                    <span></span>
+                </div>
+                <p>Working together to provide the best healthcare</p>
+            </div>
+            <div class="partners-slider">
+                <div class="partner">
+                    <img src="/placeholder.svg?height=100&width=200&text=Partner+1" alt="Partner 1">
+                </div>
+                <div class="partner">
+                    <img src="/placeholder.svg?height=100&width=200&text=Partner+2" alt="Partner 2">
+                </div>
+                <div class="partner">
+                    <img src="/placeholder.svg?height=100&width=200&text=Partner+3" alt="Partner 3">
+                </div>
+                <div class="partner">
+                    <img src="/placeholder.svg?height=100&width=200&text=Partner+4" alt="Partner 4">
+                </div>
+                <div class="partner">
+                    <img src="/placeholder.svg?height=100&width=200&text=Partner+5" alt="Partner 5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with our latest news, health tips, and special offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-widget about-widget">
+                        <h3>KIRA Clinic</h3>
+                        <p>A private health center located in Nyagatare District offering various healthcare services including treatment for illness, laboratory testing, and vaccination.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-widget links-widget">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget services-widget">
+                        <h3>Our Services</h3>
+                        <ul>
+                            <li><a href="services.html#consultations"><i class="fas fa-chevron-right"></i> Medical Consultations</a></li>
+                            <li><a href="services.html#laboratory"><i class="fas fa-chevron-right"></i> Laboratory Testing</a></li>
+                            <li><a href="services.html#vaccination"><i class="fas fa-chevron-right"></i> Vaccination Services</a></li>
+                            <li><a href="services.html#specialized"><i class="fas fa-chevron-right"></i> Specialized Care</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Health Education</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-widget contact-widget">
+                        <h3>Contact Info</h3>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>KIRA Clinic, Nyagatare District</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <p>+250 7XX XXX XXX</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <p>info@kiraclinic.com</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <p>Mon-Fri: 8:00 AM - 6:00 PM</p>
+                                <p>Sat: 9:00 AM - 1:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>&copy; 2025 KIRA Clinic. All Rights Reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Appointment Modal -->
+    <div class="modal" id="appointmentModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Book an Appointment</h2>
+            <form id="modalAppointmentForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="modal-name">Full Name</label>
+                        <input type="text" id="modal-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-email">Email Address</label>
+                        <input type="email" id="modal-email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="modal-phone">Phone Number</label>
+                        <input type="tel" id="modal-phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-date">Preferred Date</label>
+                        <input type="date" id="modal-date" name="date" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="modal-time">Preferred Time</label>
+                        <select id="modal-time" name="time" required>
+                            <option value="">Select Time</option>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="2:00 PM">2:00 PM</option>
+                            <option value="3:00 PM">3:00 PM</option>
+                            <option value="4:00 PM">4:00 PM</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="modal-service">Service</label>
+                        <select id="modal-service" name="service" required>
+                            <option value="">Select Service</option>
+                            <option value="General Consultation">General Consultation</option>
+                            <option value="Laboratory Testing">Laboratory Testing</option>
+                            <option value="Vaccination">Vaccination</option>
+                            <option value="Specialized Care">Specialized Care</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="modal-message">Additional Information</label>
+                    <textarea id="modal-message" name="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Book Appointment</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
